@@ -1,0 +1,60 @@
+.tabs, .tabs2, .tabs3 {
+    /*background-image: url('tab_b.png');*/
+    width: 100%;
+    z-index: 101;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.tabs {
+    background-color: #ffffff;
+}
+
+.tabs2 {
+    /*background-color: #eaeaea;*/
+}
+
+.tabs3 {
+    background-color: #e0e0e0;
+    font-size: 9px;
+}
+
+.tablist {
+    margin:           0;
+    padding:          0;
+    display:          table;
+    background-color: #ffffff;
+    opacity:          0.8;
+}
+
+.tablist li {
+    float: left;
+    display: table-cell;
+    /*background-image: url('tab_b.png');*/
+    line-height: 36px;
+    list-style: none;
+
+}
+
+.tablist a {
+    display: block;
+    padding: 0 20px;
+    font-weight: bold;
+    /*background-image:url('tab_s.png');*/
+    /*background-repeat:no-repeat;*/
+    /*background-position:right;*/
+    color: #74b467;
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    outline: none;
+}
+
+.tabs3 .tablist a {
+    padding: 0 10px;
+}
+
+.tablist li.current a {
+    /*background-image: url('tab_a.png');*/
+    /*background-repeat:repeat-x;*/
+    background-color: #f0f0f0;
+    color: #d484c4;
+}
